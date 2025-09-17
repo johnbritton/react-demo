@@ -16,9 +16,9 @@ export default defineConfig({
     })],
   build: {
     lib: {
-      entry: 'src/my-web-component.tsx',
-      name: 'MyWebComponent',
-      fileName: 'my-web-component'
+      entry: 'src/nhsnlink-config.tsx',
+      name: 'NHSNLinkConfig',
+      fileName: 'nhsnlink-config'
     },
     rollupOptions: {
       external: [],
