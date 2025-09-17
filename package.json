@@ -13,10 +13,24 @@
   },
   "homepage": "https://johnbritton.github.io/react-demo",
   "dependencies": {
+    "@progress/kendo-font-icons": "^4.5.0",
+    "@progress/kendo-react-animation": "^12.0.1",
+    "@progress/kendo-react-buttons": "^12.0.1",
+    "@progress/kendo-react-data-tools": "^12.0.1",
     "@progress/kendo-react-dateinputs": "^12.0.1",
     "@progress/kendo-react-dialogs": "^12.0.1",
     "@progress/kendo-react-dropdowns": "^12.0.1",
     "@progress/kendo-react-grid": "^12.0.1",
+    "@progress/kendo-react-indicators": "^12.0.1",
+    "@progress/kendo-react-inputs": "^12.0.1",
+    "@progress/kendo-react-labels": "^12.0.1",
+    "@progress/kendo-react-layout": "^12.0.1",
+    "@progress/kendo-react-listbox": "^12.0.1",
+    "@progress/kendo-react-notification": "^12.0.1",
+    "@progress/kendo-react-popup": "^12.0.1",
+    "@progress/kendo-react-progressbars": "^12.0.1",
+    "@progress/kendo-react-tooltip": "^12.0.1",
+    "@progress/kendo-theme-bootstrap": "^12.0.1",
     "@progress/kendo-theme-default": "^12.0.1",
     "@r2wc/react-to-web-component": "^2.1.0",
     "react": "^19.1.1",
@@ -34,6 +48,7 @@
     "globals": "^16.3.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
-    "vite": "^7.1.2"
+    "vite": "^7.1.2",
+    "vite-plugin-static-copy": "^3.1.2"
   }
 }

@@ -1,13 +1,20 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <my-web-component></my-web-component>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<html>
+
+<head>
+    <script src="https://johnbritton.github.io/react-demo/my-web-component.js"></script>
+    <link rel="stylesheet" href="https://johnbritton.github.io/react-demo/my-web-component.css"></link>
+</head>
+
+<body>
+    <div style="height: 200px; background-color: gray; margin: 10px;"></div>
+    <div class="row">
+        <div class="col-2">
+            <div style="height: 800px; background-color: gray; margin: 10px;"></div>
+        </div>
+        <div class="col-10">
+            <my-web-component jwt="TEST_ABC123EFG"></my-web-component>
+        </div>
+    </div>
+</body>
+
 </html>
